@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/imooc?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: hello.gogo
+    data-username:
+  session:
+    store-type: none
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
+security:
+  basic:
+    enabled: false
+
